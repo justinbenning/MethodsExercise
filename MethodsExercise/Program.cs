@@ -34,16 +34,16 @@ namespace MethodsExercise
         
         static void Main(string[] args)
         {
-            var addition = Add(2, 3, 5, 2, 7);
-            Console.WriteLine(addition);
-            var subtraction = Sub(5, 2);
-            Console.WriteLine(subtraction);
-            var mutilply = Mul(3, 3, 4);
-            Console.WriteLine(mutilply);
-            var division = Div(9, 3);
-            Console.WriteLine(division);
-            var modulus = Mod(25, 4);
-            Console.WriteLine(modulus);
+           
+            Console.WriteLine(Add(2, 3, 5, 2, 7));
+            
+            Console.WriteLine(Sub(5, 2));
+            
+            Console.WriteLine(Mul(3, 3, 4));
+            
+            Console.WriteLine(Div(9, 3));
+           
+            Console.WriteLine(Mod(25, 4));
 
 
 
